@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0976EB2A13E6A83700587221 /* mars_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0976EB2913E6A83700587221 /* mars_5.jpg */; };
+		09E7668013E283F600D6EB4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E7667F13E283F600D6EB4C /* UIKit.framework */; };
+		09E7668213E283F600D6EB4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E7668113E283F600D6EB4C /* Foundation.framework */; };
+		09E7668413E283F600D6EB4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E7668313E283F600D6EB4C /* CoreGraphics.framework */; };
+		09E7668A13E283F600D6EB4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09E7668813E283F600D6EB4C /* InfoPlist.strings */; };
+		09E7668C13E283F600D6EB4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E7668B13E283F600D6EB4C /* main.m */; };
+		09E7669013E283F600D6EB4C /* AresCalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E7668F13E283F600D6EB4C /* AresCalAppDelegate.m */; };
+		09E7669413E283F600D6EB4C /* AresCalAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E7669313E283F600D6EB4C /* AresCalAppDelegate_iPhone.m */; };
+		09E7669713E283F600D6EB4C /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E7669513E283F600D6EB4C /* MainWindow_iPhone.xib */; };
+		09E7669B13E283F600D6EB4C /* AresCalAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E7669A13E283F600D6EB4C /* AresCalAppDelegate_iPad.m */; };
+		09E7669E13E283F600D6EB4C /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E7669C13E283F600D6EB4C /* MainWindow_iPad.xib */; };
+		09E766A613E3094400D6EB4C /* AresCalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E766A513E3094400D6EB4C /* AresCalViewController.m */; };
+		09E766AA13E309B100D6EB4C /* AresCalViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E766A813E309B100D6EB4C /* AresCalViewController_iPhone.m */; };
+		09E766AB13E309B100D6EB4C /* AresCalViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E766A913E309B100D6EB4C /* AresCalViewController_iPhone.xib */; };
+		09E766AF13E309F800D6EB4C /* AresCalViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E766AD13E309F800D6EB4C /* AresCalViewController_iPad.m */; };
+		09E766B013E309F800D6EB4C /* AresCalViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E766AE13E309F800D6EB4C /* AresCalViewController_iPad.xib */; };
+		09E766E513E31FB600D6EB4C /* mars-view.png in Resources */ = {isa = PBXBuildFile; fileRef = 09E766E413E31FB600D6EB4C /* mars-view.png */; };
+		09E766EE13E3200200D6EB4C /* mars_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09E766E713E3200200D6EB4C /* mars_1.jpg */; };
+		09E766EF13E3200200D6EB4C /* mars_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09E766E813E3200200D6EB4C /* mars_2.jpg */; };
+		09E766F013E3200200D6EB4C /* mars_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09E766E913E3200200D6EB4C /* mars_3.jpg */; };
+		09E766F113E3200200D6EB4C /* mars_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09E766EA13E3200200D6EB4C /* mars_4.jpg */; };
+		09E766F313E3200200D6EB4C /* mars_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09E766EC13E3200200D6EB4C /* mars_6.jpg */; };
+		09E766F413E3200200D6EB4C /* mars_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09E766ED13E3200200D6EB4C /* mars_7.jpg */; };
+		09E766F713E3301700D6EB4C /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 09E766F513E3301600D6EB4C /* Default-Landscape.png */; };
+		09E766F813E3301700D6EB4C /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 09E766F613E3301600D6EB4C /* Default-Portrait.png */; };
+		09E766FA13E3304400D6EB4C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 09E766F913E3304400D6EB4C /* Default.png */; };
+		09E766FD13E3314B00D6EB4C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09E766FB13E3314B00D6EB4C /* Icon@2x.png */; };
+		09E766FE13E3314B00D6EB4C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 09E766FC13E3314B00D6EB4C /* Icon.png */; };
+		09E7670013E3319800D6EB4C /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 09E766FF13E3319800D6EB4C /* Icon-72.png */; };
+		09E7670613E3325500D6EB4C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 09E7670513E3325500D6EB4C /* Icon.png */; };
+		09E7670913E3326D00D6EB4C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09E7670813E3326D00D6EB4C /* Icon@2x.png */; };
+		09E7670B13E3327A00D6EB4C /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 09E7670A13E3327A00D6EB4C /* Icon-72.png */; };
+		09E7670F13E3A5D600D6EB4C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E7670D13E3A5D500D6EB4C /* SettingsViewController.m */; };
+		09E7671013E3A5D600D6EB4C /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E7670E13E3A5D500D6EB4C /* SettingsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0976EB2913E6A83700587221 /* mars_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars_5.jpg; sourceTree = "<group>"; };
+		09E7667B13E283F500D6EB4C /* AresCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AresCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E7667F13E283F600D6EB4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09E7668113E283F600D6EB4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09E7668313E283F600D6EB4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09E7668713E283F600D6EB4C /* AresCal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AresCal-Info.plist"; sourceTree = "<group>"; };
+		09E7668913E283F600D6EB4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09E7668B13E283F600D6EB4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09E7668D13E283F600D6EB4C /* AresCal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AresCal-Prefix.pch"; sourceTree = "<group>"; };
+		09E7668E13E283F600D6EB4C /* AresCalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AresCalAppDelegate.h; sourceTree = "<group>"; };
+		09E7668F13E283F600D6EB4C /* AresCalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AresCalAppDelegate.m; sourceTree = "<group>"; };
+		09E7669213E283F600D6EB4C /* AresCalAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AresCalAppDelegate_iPhone.h; path = iPhone/AresCalAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		09E7669313E283F600D6EB4C /* AresCalAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AresCalAppDelegate_iPhone.m; path = iPhone/AresCalAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		09E7669613E283F600D6EB4C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		09E7669913E283F600D6EB4C /* AresCalAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AresCalAppDelegate_iPad.h; path = iPad/AresCalAppDelegate_iPad.h; sourceTree = "<group>"; };
+		09E7669A13E283F600D6EB4C /* AresCalAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AresCalAppDelegate_iPad.m; path = iPad/AresCalAppDelegate_iPad.m; sourceTree = "<group>"; };
+		09E7669D13E283F600D6EB4C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		09E766A413E3094300D6EB4C /* AresCalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AresCalViewController.h; sourceTree = "<group>"; };
+		09E766A513E3094400D6EB4C /* AresCalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AresCalViewController.m; sourceTree = "<group>"; };
+		09E766A713E309B100D6EB4C /* AresCalViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AresCalViewController_iPhone.h; path = iPhone/AresCalViewController_iPhone.h; sourceTree = "<group>"; };
+		09E766A813E309B100D6EB4C /* AresCalViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AresCalViewController_iPhone.m; path = iPhone/AresCalViewController_iPhone.m; sourceTree = "<group>"; };
+		09E766A913E309B100D6EB4C /* AresCalViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AresCalViewController_iPhone.xib; path = iPhone/AresCalViewController_iPhone.xib; sourceTree = "<group>"; };
+		09E766AC13E309F800D6EB4C /* AresCalViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AresCalViewController_iPad.h; path = iPad/AresCalViewController_iPad.h; sourceTree = "<group>"; };
+		09E766AD13E309F800D6EB4C /* AresCalViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AresCalViewController_iPad.m; path = iPad/AresCalViewController_iPad.m; sourceTree = "<group>"; };
+		09E766AE13E309F800D6EB4C /* AresCalViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AresCalViewController_iPad.xib; path = iPad/AresCalViewController_iPad.xib; sourceTree = "<group>"; };
+		09E766E413E31FB600D6EB4C /* mars-view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mars-view.png"; sourceTree = "<group>"; };
+		09E766E713E3200200D6EB4C /* mars_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars_1.jpg; sourceTree = "<group>"; };
+		09E766E813E3200200D6EB4C /* mars_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars_2.jpg; sourceTree = "<group>"; };
+		09E766E913E3200200D6EB4C /* mars_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars_3.jpg; sourceTree = "<group>"; };
+		09E766EA13E3200200D6EB4C /* mars_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars_4.jpg; sourceTree = "<group>"; };
+		09E766EC13E3200200D6EB4C /* mars_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars_6.jpg; sourceTree = "<group>"; };
+		09E766ED13E3200200D6EB4C /* mars_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars_7.jpg; sourceTree = "<group>"; };
+		09E766F513E3301600D6EB4C /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		09E766F613E3301600D6EB4C /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		09E766F913E3304400D6EB4C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		09E766FB13E3314B00D6EB4C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		09E766FC13E3314B00D6EB4C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		09E766FF13E3319800D6EB4C /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		09E7670513E3325500D6EB4C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		09E7670813E3326D00D6EB4C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		09E7670A13E3327A00D6EB4C /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		09E7670C13E3A5D500D6EB4C /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		09E7670D13E3A5D500D6EB4C /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		09E7670E13E3A5D500D6EB4C /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		09E7671113E3BA9E00D6EB4C /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09E7667813E283F500D6EB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E7668013E283F600D6EB4C /* UIKit.framework in Frameworks */,
+				09E7668213E283F600D6EB4C /* Foundation.framework in Frameworks */,
+				09E7668413E283F600D6EB4C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09E7667013E283F500D6EB4C = {
+			isa = PBXGroup;
+			children = (
+				09E7670A13E3327A00D6EB4C /* Icon-72.png */,
+				09E7670813E3326D00D6EB4C /* Icon@2x.png */,
+				09E7670513E3325500D6EB4C /* Icon.png */,
+				09E7668513E283F600D6EB4C /* AresCal */,
+				09E7667E13E283F500D6EB4C /* Frameworks */,
+				09E7667C13E283F500D6EB4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09E7667C13E283F500D6EB4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09E7667B13E283F500D6EB4C /* AresCal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09E7667E13E283F500D6EB4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09E7667F13E283F600D6EB4C /* UIKit.framework */,
+				09E7668113E283F600D6EB4C /* Foundation.framework */,
+				09E7668313E283F600D6EB4C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09E7668513E283F600D6EB4C /* AresCal */ = {
+			isa = PBXGroup;
+			children = (
+				09E7668E13E283F600D6EB4C /* AresCalAppDelegate.h */,
+				09E7668F13E283F600D6EB4C /* AresCalAppDelegate.m */,
+				09E7669113E283F600D6EB4C /* iPhone */,
+				09E7669813E283F600D6EB4C /* iPad */,
+				09E7668613E283F600D6EB4C /* Supporting Files */,
+				09E766A413E3094300D6EB4C /* AresCalViewController.h */,
+				09E766A513E3094400D6EB4C /* AresCalViewController.m */,
+				09E7670C13E3A5D500D6EB4C /* SettingsViewController.h */,
+				09E7670D13E3A5D500D6EB4C /* SettingsViewController.m */,
+				09E7670E13E3A5D500D6EB4C /* SettingsViewController.xib */,
+				09E7671113E3BA9E00D6EB4C /* settings.h */,
+			);
+			path = AresCal;
+			sourceTree = "<group>";
+		};
+		09E7668613E283F600D6EB4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09E7668713E283F600D6EB4C /* AresCal-Info.plist */,
+				09E7668813E283F600D6EB4C /* InfoPlist.strings */,
+				09E7668B13E283F600D6EB4C /* main.m */,
+				09E7668D13E283F600D6EB4C /* AresCal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09E7669113E283F600D6EB4C /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				09E766FB13E3314B00D6EB4C /* Icon@2x.png */,
+				09E766FC13E3314B00D6EB4C /* Icon.png */,
+				09E766F913E3304400D6EB4C /* Default.png */,
+				09E766E413E31FB600D6EB4C /* mars-view.png */,
+				09E7669213E283F600D6EB4C /* AresCalAppDelegate_iPhone.h */,
+				09E7669313E283F600D6EB4C /* AresCalAppDelegate_iPhone.m */,
+				09E7669513E283F600D6EB4C /* MainWindow_iPhone.xib */,
+				09E766A713E309B100D6EB4C /* AresCalViewController_iPhone.h */,
+				09E766A813E309B100D6EB4C /* AresCalViewController_iPhone.m */,
+				09E766A913E309B100D6EB4C /* AresCalViewController_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		09E7669813E283F600D6EB4C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				0976EB2913E6A83700587221 /* mars_5.jpg */,
+				09E766FF13E3319800D6EB4C /* Icon-72.png */,
+				09E766F513E3301600D6EB4C /* Default-Landscape.png */,
+				09E766F613E3301600D6EB4C /* Default-Portrait.png */,
+				09E766E713E3200200D6EB4C /* mars_1.jpg */,
+				09E766E813E3200200D6EB4C /* mars_2.jpg */,
+				09E766E913E3200200D6EB4C /* mars_3.jpg */,
+				09E766EA13E3200200D6EB4C /* mars_4.jpg */,
+				09E766EC13E3200200D6EB4C /* mars_6.jpg */,
+				09E766ED13E3200200D6EB4C /* mars_7.jpg */,
+				09E7669913E283F600D6EB4C /* AresCalAppDelegate_iPad.h */,
+				09E7669A13E283F600D6EB4C /* AresCalAppDelegate_iPad.m */,
+				09E7669C13E283F600D6EB4C /* MainWindow_iPad.xib */,
+				09E766AC13E309F800D6EB4C /* AresCalViewController_iPad.h */,
+				09E766AD13E309F800D6EB4C /* AresCalViewController_iPad.m */,
+				09E766AE13E309F800D6EB4C /* AresCalViewController_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09E7667A13E283F500D6EB4C /* AresCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E766A113E283F600D6EB4C /* Build configuration list for PBXNativeTarget "AresCal" */;
+			buildPhases = (
+				09E7667713E283F500D6EB4C /* Sources */,
+				09E7667813E283F500D6EB4C /* Frameworks */,
+				09E7667913E283F500D6EB4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AresCal;
+			productName = AresCal;
+			productReference = 09E7667B13E283F500D6EB4C /* AresCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09E7667213E283F500D6EB4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Arkane Systems";
+			};
+			buildConfigurationList = 09E7667513E283F500D6EB4C /* Build configuration list for PBXProject "AresCal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09E7667013E283F500D6EB4C;
+			productRefGroup = 09E7667C13E283F500D6EB4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09E7667A13E283F500D6EB4C /* AresCal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09E7667913E283F500D6EB4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E7668A13E283F600D6EB4C /* InfoPlist.strings in Resources */,
+				09E7669713E283F600D6EB4C /* MainWindow_iPhone.xib in Resources */,
+				09E7669E13E283F600D6EB4C /* MainWindow_iPad.xib in Resources */,
+				09E766AB13E309B100D6EB4C /* AresCalViewController_iPhone.xib in Resources */,
+				09E766B013E309F800D6EB4C /* AresCalViewController_iPad.xib in Resources */,
+				09E766E513E31FB600D6EB4C /* mars-view.png in Resources */,
+				09E766EE13E3200200D6EB4C /* mars_1.jpg in Resources */,
+				09E766EF13E3200200D6EB4C /* mars_2.jpg in Resources */,
+				09E766F013E3200200D6EB4C /* mars_3.jpg in Resources */,
+				09E766F113E3200200D6EB4C /* mars_4.jpg in Resources */,
+				09E766F313E3200200D6EB4C /* mars_6.jpg in Resources */,
+				09E766F413E3200200D6EB4C /* mars_7.jpg in Resources */,
+				09E766F713E3301700D6EB4C /* Default-Landscape.png in Resources */,
+				09E766F813E3301700D6EB4C /* Default-Portrait.png in Resources */,
+				09E766FA13E3304400D6EB4C /* Default.png in Resources */,
+				09E766FD13E3314B00D6EB4C /* Icon@2x.png in Resources */,
+				09E766FE13E3314B00D6EB4C /* Icon.png in Resources */,
+				09E7670013E3319800D6EB4C /* Icon-72.png in Resources */,
+				09E7670613E3325500D6EB4C /* Icon.png in Resources */,
+				09E7670913E3326D00D6EB4C /* Icon@2x.png in Resources */,
+				09E7670B13E3327A00D6EB4C /* Icon-72.png in Resources */,
+				09E7671013E3A5D600D6EB4C /* SettingsViewController.xib in Resources */,
+				0976EB2A13E6A83700587221 /* mars_5.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09E7667713E283F500D6EB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E7668C13E283F600D6EB4C /* main.m in Sources */,
+				09E7669013E283F600D6EB4C /* AresCalAppDelegate.m in Sources */,
+				09E7669413E283F600D6EB4C /* AresCalAppDelegate_iPhone.m in Sources */,
+				09E7669B13E283F600D6EB4C /* AresCalAppDelegate_iPad.m in Sources */,
+				09E766A613E3094400D6EB4C /* AresCalViewController.m in Sources */,
+				09E766AA13E309B100D6EB4C /* AresCalViewController_iPhone.m in Sources */,
+				09E766AF13E309F800D6EB4C /* AresCalViewController_iPad.m in Sources */,
+				09E7670F13E3A5D600D6EB4C /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09E7668813E283F600D6EB4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E7668913E283F600D6EB4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09E7669513E283F600D6EB4C /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E7669613E283F600D6EB4C /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		09E7669C13E283F600D6EB4C /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E7669D13E283F600D6EB4C /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09E7669F13E283F600D6EB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09E766A013E283F600D6EB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09E766A213E283F600D6EB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AresCal/AresCal-Prefix.pch";
+				INFOPLIST_FILE = "AresCal/AresCal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09E766A313E283F600D6EB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AresCal/AresCal-Prefix.pch";
+				INFOPLIST_FILE = "AresCal/AresCal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09E7667513E283F500D6EB4C /* Build configuration list for PBXProject "AresCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E7669F13E283F600D6EB4C /* Debug */,
+				09E766A013E283F600D6EB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09E766A113E283F600D6EB4C /* Build configuration list for PBXNativeTarget "AresCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E766A213E283F600D6EB4C /* Debug */,
+				09E766A313E283F600D6EB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09E7667213E283F500D6EB4C /* Project object */;
+}
